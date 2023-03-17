@@ -1,2 +1,2 @@
 # country-data-api
-a country data bz api js
+a country data by api js
