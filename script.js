@@ -29,7 +29,12 @@ const element = function (countries) {
 };
 
 image_search.addEventListener("click", () => {
-  country.classList.remove("hidden");
-  let t = search.value;
-  element(t);
+  if (search.value.length === 0) {
+    alert("please enter a country");
+    country.classList.remove("hidden");
+  } else if (search.value.length !== 0) {
+    country.classList.remove("hidden");
+    let t = search.value;
+    element(t);
+  }
 });
