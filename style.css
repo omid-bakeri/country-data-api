@@ -79,6 +79,12 @@ body {
   margin-left: 1rem;
   margin-top: 0.5rem;
 }
+.images {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
 .p {
   /* display: inline; */
   color: aliceblue;
